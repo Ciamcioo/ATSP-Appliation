@@ -1,0 +1,17 @@
+#ifndef OPTION_H 
+#define OPTION_H
+
+#include <iostream>
+enum class Option {
+  LOAD_SET,
+  BRUTE_FORCE_METHOD,
+  DYNAMIC_PROGRAMING,
+  BRANCH_AND_BOUND,
+  PRINT_LOADED_DATA,
+  RUN_ALL_ALGORITHMS,
+  RUN_TESTS,
+  INVALID_INPUT,
+  EXIT
+};
+
+#endif 
